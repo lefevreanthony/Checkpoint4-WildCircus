@@ -31,3 +31,6 @@ table {
     justify-content: center;
     margin-bottom: 5rem;
 }
+.img-fluid{
+    width: 10%;
+}
