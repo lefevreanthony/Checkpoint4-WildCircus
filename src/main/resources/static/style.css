@@ -1,0 +1,17 @@
+hr {
+    width: 25%;
+}
+h2 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.right {
+    display: flex;
+    justify-content: end;
+}
+section div {
+    margin-bottom: 3rem;
+}
+.navbar-brand {
+    font-size: 3rem;
+}
