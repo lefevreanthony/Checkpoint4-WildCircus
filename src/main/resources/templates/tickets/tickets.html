@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Wild Circus</title>
+    <link rel="icon" type="image/png" href="../../static/images/logo.png" th:href="@{../images/logo.png}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css" th:href="@{/style.css}">
+
+</head>
+<body class="container">
+    
+    <div th:replace="fragments/header :: header"></div>
+
+
+    <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Enter your name :</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Select number to buy : </label>
+            <select class="form-control" id="exampleFormControlSelect1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            </select>
+        </div>
+        <div class="btncenter">
+        <button type="submit" class="btn btn-primary mb-2">buy</button>
+        </div>
+    </form>
+    <p>historic :</p>
+    <input class="mb-5" type="text">
+    
+
+   <table>
+       <thead>
+           <tr>
+                <th>
+                    
+                </th>
+                <th>
+                    Adults
+                </th>
+                <th>
+                    children
+                </th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <th>
+                   price
+               </th>
+               <td>
+                    25€
+                </td>
+                <td>
+                    5€
+                </td>
+           </tr>
+       </tbody>
+   </table>
+</body>
+</html>
