@@ -5,24 +5,24 @@
     <link rel="icon" type="image/png" href="../../static/images/logo.png" th:href="@{../images/logo.png}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../static/style.css" th:href="@{/style.css}">
-
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo&display=swap" rel="stylesheet">
 </head>
 <body class="container">
     
     <div th:replace="fragments/header :: header"></div>
 
-    <div class="d-flex justify-content-center">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.026613478958!2d4.017527451207606!3d49.25694147922703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e97501a1f9a0f5%3A0xf9ef0cdf67c7926a!2s6%20Rue%20de%20Saint-Brice%2C%2051100%20Reims!5e0!3m2!1sfr!2sfr!4v1570636029171!5m2!1sfr!2sfr" 
-    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Where are we ?</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Wild Circus</h6>
-              <p class="card-text">address : 6 rue de ST Brice, Reims, 51100. </p>
-              <p>phone : 0323242526</p>
-            </div>
+    <div class="row">
+      <iframe class="col-lg-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.026613478958!2d4.017527451207606!3d49.25694147922703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e97501a1f9a0f5%3A0xf9ef0cdf67c7926a!2s6%20Rue%20de%20Saint-Brice%2C%2051100%20Reims!5e0!3m2!1sfr!2sfr!4v1570636029171!5m2!1sfr!2sfr" 
+      width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      <div class="card col-lg-5" style="width: 18rem;">
+          <div class="card-body ">
+            <h5 class="card-title">Where are we ?</h5>
+            <h6 class="card-subtitle mb-2">Wild Circus</h6>
+            <p class="card-text">address : 6 rue de ST Brice, Reims, 51100. </p>
+            <p>phone : 0323242526</p>
           </div>
-    </div>
+        </div>
+      </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
