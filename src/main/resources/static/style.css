@@ -1,6 +1,12 @@
 hr {
     width: 25%;
 }
+h1 {
+    border: 1px solid black;
+    width: 75%;
+    border-radius: 1rem;
+    margin: auto;
+}
 h2 {
     margin-bottom: 3rem;
     text-align: center;
@@ -33,4 +39,11 @@ table {
 }
 .img-fluid{
     width: 10%;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-collapse {
+     display: flex;
+     justify-content: flex-end;
+    }
 }
