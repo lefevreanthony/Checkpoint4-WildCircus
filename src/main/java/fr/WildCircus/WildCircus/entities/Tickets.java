@@ -22,13 +22,27 @@ public class Tickets {
    @JoinColumn(name = "price_id")
     private Price price;
 
-  public Long getId() {
-        return id;
-    }
+  public Tickets(Reservation name) {
+  }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+  public Long getId() {
+      return id;
+  }
+
+  public void setId(Long id) {
+      this.id = id;
+  }
+
+  public Tickets(Long id, Reservation reservation, Price price) {
+    this.id = id;
+    this.reservation = reservation;
+    this.price = price;
+  }
+
+  public Tickets(Reservation reservation, Price price) {
+    this.reservation = reservation;
+    this.price = price;
+  }
 }
 
   
