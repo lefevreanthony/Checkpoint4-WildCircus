@@ -13,7 +13,6 @@ import fr.WildCircus.WildCircus.entities.Price;
 import fr.WildCircus.WildCircus.entities.Reservation;
 import fr.WildCircus.WildCircus.repositories.PriceRepository;
 import fr.WildCircus.WildCircus.repositories.ReservationRepository;
-import fr.WildCircus.WildCircus.repositories.TicketsRepository;
 
 @Controller
 public class ReservationController {
